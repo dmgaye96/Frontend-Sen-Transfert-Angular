@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SignupComponent } from './auth/signup/signup.component';
@@ -12,6 +11,7 @@ import { HttpClientModule} from '@angular/common/http';
 import { Routes, RouterModule } from '@angular/router';
 import { FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { RegisterComponent } from './register/register.component';
+
 
 
 
@@ -31,7 +31,8 @@ const appRoutes: Routes = [
     SignupComponent,
     SigninComponent,
     HeadersuperadminComponent,
-    RegisterComponent
+    RegisterComponent,
+
   ],
   imports: [
     BrowserModule,

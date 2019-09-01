@@ -6,11 +6,11 @@ import { Router } from '@angular/router';
   providedIn: 'root'
 })
 export class AuthService {
- 
+
   private _loginUrl = "http://localhost:8000/api/login";
 
   constructor(private http: HttpClient,
-              private _router: Router) { }
+              private _router : Router) { }
 
 
 
